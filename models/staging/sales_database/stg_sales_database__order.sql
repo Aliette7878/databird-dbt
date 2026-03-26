@@ -1,5 +1,5 @@
 select
-    order_id_y,
+    order_id, -- no x, no y, just a nice comment
     user_name as user_id, -- corrected
     order_status,
     DATETIME(order_date, "Europe/Paris") AS order_created_at,
