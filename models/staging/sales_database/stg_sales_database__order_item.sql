@@ -1,5 +1,5 @@
 select CONCAT(order_id, '_', product_id) AS order_item_id,
- order_id_z,
+order_id, -- just a comment instead of a/z
  product_id,
  seller_id,
  DATETIME(pickup_limit_date, "Europe/Paris") AS picked_up_limited_at,
