@@ -1,5 +1,5 @@
 version: 2
-# Comment 3 
+
 models:
   - name: int_google_analytics__session
     description: '{{ doc("int_google_analytics__session") }}'
